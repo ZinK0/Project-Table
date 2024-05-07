@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 50px 25px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+/* Table Header Style Start Here  */
+
+thead {
+  background-color: #909090;
+  color: #f0f0f0;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+th {
+  padding: 20px 10px;
+}
+
+th:first-child {
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Table Body Style Start Here  */
+tbody tr:hover td {
+  background-color: #f0f0f0;
+}
+
+.module1:before {
+  line-height: 2em;
+  content: "Module-1: HTML,CSS, and Git";
+  font-weight: bold;
+  color: black; /* bacground color */
+  display: block;
+  margin-top: 20px;
+}
+
+tbody {
+  border-spacing: 10px;
+}
+
+/* Table Data Color  */
+tr > td:first-child {
+  color: orange;
+  font-weight: 500;
+  border: 1px solid grey;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+tr > td:last-child {
+  border: 1px solid grey;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+tr > td:last-child a {
+  text-decoration: none;
+}
+
+tbody td {
+  padding: 15px 30px;
+  background-color: white;
+}
+
+/* Module 1 Border Radius Start Here */
+.module1 + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.module1 + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.module1 ~ tr:nth-child(7) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.module1 ~ tr:nth-child(7) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Moudle 1 Border Radius End Here  */
+
+/* Module 2 Border Radius Start Here */
+.module2:before {
+  line-height: 2em;
+  content: "Module-2: Advance CSS";
+  font-weight: bold;
+  color: black; /* background color */
+  display: block;
+  margin-top: 20px;
+}
+
+/* Module 2 Border Radius */
+.module2 + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.module2 + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.module2 ~ tr:nth-child(15) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.module2 ~ tr:nth-child(15) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Module 2 Border Radius End Here */
+
+/* Module 3 Border Radius Start Here */
+.module3:before {
+  line-height: 2em;
+  content: "Module-3: JavaScript";
+  font-weight: bold;
+  color: black; /* background color */
+  display: block;
+  margin-top: 20px;
+}
+
+/* Module 3 Border Radius */
+.module3 + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.module3 + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.module3 ~ tr:nth-child(22) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.module3 ~ tr:nth-child(22) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Module 3 Border Radius End Here */
+
+/* Algorithm Border Radius Start Here */
+.algorithm:before {
+  line-height: 2em;
+  content: "Algorithm";
+  font-weight: bold;
+  color: black; /* background color */
+  display: block;
+  margin-top: 20px;
+}
+
+/* Algorithm Border Radius */
+.algorithm + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.algorithm + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.algorithm ~ tr:nth-child(27) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.algorithm ~ tr:nth-child(27) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Algorithm Border Radius End Here */
+
+/* Module 4 Border Radius Start Here */
+.module4:before {
+  line-height: 2em;
+  content: "Module-4: Web API";
+  font-weight: bold;
+  color: black; /* background color */
+  display: block;
+  margin-top: 20px;
+}
+
+/* Module 4 Border Radius */
+.module4 + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.module4 + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.module4 ~ tr:nth-child(34) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.module4 ~ tr:nth-child(34) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Module 4 Border Radius End Here */
+
+/* Algorithm2 Border Radius Start Here */
+.algorithm2:before {
+  line-height: 2em;
+  content: "Algorithm-2";
+  font-weight: bold;
+  color: black; /* background color */
+  display: block;
+  margin-top: 20px;
+}
+
+/* Algorithm2 Border Radius */
+.algorithm2 + tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.algorithm2 + tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.algorithm2 ~ tr:nth-child(39) td:first-child {
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 10px;
+}
+.algorithm2 ~ tr:nth-child(39) td:last-child {
+  border-bottom: 1px solid grey;
+  border-bottom-right-radius: 10px;
+}
+/* Algorithm2 Border Radius End Here */
