@@ -66,8 +66,6 @@ tbody {
 
 /* Table Data Color  */
 tr > td:first-child {
-  color: orange;
-  font-weight: 500;
   border: 1px solid grey;
   border-right: 0;
   border-bottom: 0;
@@ -77,6 +75,12 @@ tr > td:last-child {
   border: 1px solid grey;
   border-left: 0;
   border-bottom: 0;
+}
+
+tr > td:first-child a {
+  text-decoration: none;
+  color: orange;
+  font-weight: 500;
 }
 
 tr > td:last-child a {
